@@ -23,9 +23,9 @@ repository               : "AndreiMuresanu/AndreiMuresanu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Andrei Muresanu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "AI Researcher"
   location         : # "Toronto, Canada"
   employer         : "University of Waterloo"
   uri              : # URL

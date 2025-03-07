@@ -1,7 +1,7 @@
 ---
-title: "Clay Sculting"
+title: "Clay Sculpting"
 excerpt: "His name is Mustard<br/><img src='/images/mustard_1.jpg'>"
-collection: portfolio
+collection: fun
 ---
 
 Clay pot shaped like a dog, equipped with a drainage system.

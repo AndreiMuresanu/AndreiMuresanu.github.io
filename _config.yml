@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "About Andrei"
+title                    : "Andrei Muresanu"
 title_separator          : "-"
 name                     : &name "Andrei Muresanu"
 description              : &description "personal description"

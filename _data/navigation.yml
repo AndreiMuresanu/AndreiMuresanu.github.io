@@ -12,7 +12,7 @@ main:
     url: /about/
     
   - title: "CV"
-    url: /files/AndreiMuresanu_CV_v3.1-Pmp.pdf
+    url: /cv/
     
   - title: "Publications"
     url: /publications/

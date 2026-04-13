@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Andrei. This September, I've started my Master's + Ph.D. at the University of Toronto, co-supervised by Professors Nicolas Papernot and Zhijing Jin. My research interests lie in interpretability, with the goal of using how a mechanistic understanding of AI models to improve evaluation efficiency in long-tail and out-of-distribution settings.
+Hi, I'm Andrei. This September, I've started my Master's + Ph.D. at the University of Toronto, co-supervised by Professors Nicolas Papernot and Zhijing Jin. My research interests lie in interpretability, with the goal of using a mechanistic understanding of AI models to improve evaluation efficiency in long-tail and out-of-distribution settings.
 
 I previously earned a dual Bachelor's degree in Computer Science and Statistics from the University of Waterloo and have interned at Nvidia. Currently, I serve as the CTO of WealthyPlanet and a founding PI at Silera.ai.

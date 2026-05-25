@@ -4,8 +4,6 @@ title: "LLM Attack Test"
 author_profile: false
 ---
 
-# LLM Attack Test
-
 This page contains a non-harmful real-world test of an LLM attack.
 
 ## La Andrei Acasă

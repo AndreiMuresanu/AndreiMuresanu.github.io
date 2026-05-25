@@ -20,8 +20,8 @@ main:
   - title: "Fun"
     url: /fun/
 
-  - title: "LLM Attack Test"
-    url: /llm-attack-test/
+  - title: "LLM Test"
+    url: /llm-test/
 
   # - title: "Talks"
   #   url: /talks/    

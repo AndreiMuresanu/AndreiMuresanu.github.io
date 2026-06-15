@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Andrei"
+description: "Andrei Muresanu is a University of Toronto researcher working on interpretability, trustworthy ML, AI safety, and efficient ML evaluations, and advises organizations on AI safety, security, and privacy."
 author_profile: true
 redirect_from: 
   - /about/

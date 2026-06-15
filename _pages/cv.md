@@ -2,6 +2,7 @@
 layout: single
 title: "CV"
 permalink: /cv/
+description: "CV of Andrei Muresanu, covering research in interpretability, trustworthy ML, AI safety, efficient ML evaluations, and related advisory work."
 author_profile: true
 redirect_from:
   - /resume

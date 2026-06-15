@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Andrei Muresanu" # Currently available options are "default", "air"
 title_separator          : "-"
 name                     : &name "Andrei Muresanu"
-description              : &description "personal description"
+description              : &description "Research website of Andrei Muresanu, focused on interpretability, trustworthy ML, AI safety, efficient ML evaluations, and advisory work in AI safety, security, and privacy."
 url                      : https://andreimuresanu.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "AndreiMuresanu/AndreiMuresanu.github.io"
@@ -28,7 +28,7 @@ author:
   bio              : "AI Researcher"
   location         : # "Toronto, Canada"
   employer         : "University of Toronto"
-  uri              : # URL
+  uri              : "https://andreimuresanu.com"
   email            : "andrei.muresanu@uwaterloo.ca" 
 
   # Academic websites
@@ -132,19 +132,23 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : "_AndreiMuresanu"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "linkedin_photo_sept-7-2024.jpg" # Social media default site image
+og_description           : "Interpretability, trustworthy ML, AI safety, efficient ML evaluations, and advisory work in AI safety, security, and privacy." # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person"
+  name                   : "Andrei Muresanu"
   links: # An array of links to social media profiles
+    - "https://scholar.google.ca/citations?user=Zb0NwBUAAAAJ&hl=en"
+    - "https://github.com/AndreiMuresanu"
+    - "https://www.linkedin.com/in/andreimuresanu"
+    - "https://twitter.com/_AndreiMuresanu"
 
 
 # Analytics

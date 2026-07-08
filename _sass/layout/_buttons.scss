@@ -163,11 +163,14 @@
   align-items: center;
   gap: 0.65rem;
   padding: 0.9rem 1.4rem;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  color: var(--cv-cta-text-color) !important;
+  background-color: var(--cv-cta-bg-color);
+  box-shadow: var(--cv-cta-shadow);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 
   &:hover {
+    background-color: var(--cv-cta-bg-hover-color);
     transform: translateY(-2px);
-    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
+    box-shadow: var(--cv-cta-shadow-hover);
   }
 }

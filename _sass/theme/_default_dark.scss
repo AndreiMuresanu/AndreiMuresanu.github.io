@@ -51,4 +51,9 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #f3f3f3;
     --global-thead-color                : #{$background-lighter};
+    --cv-cta-bg-color                   : #0ea1c5;
+    --cv-cta-bg-hover-color             : #{mix(#000, #0ea1c5, 20%)};
+    --cv-cta-text-color                 : #08161b;
+    --cv-cta-shadow                     : 0 10px 24px rgba(14, 161, 197, 0.22);
+    --cv-cta-shadow-hover               : 0 14px 30px rgba(14, 161, 197, 0.32);
 }

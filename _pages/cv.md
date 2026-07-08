@@ -12,11 +12,23 @@ redirect_from:
 
 You can view or download my CV as a PDF below.
 
-[Open CV PDF]({{ base_path }}/files/AndreiMuresanu_CV_v3.5-Pmp.pdf){: .btn .btn--primary }
+<div class="cv-pdf-cta-wrap">
+  <a
+    class="btn btn--primary btn--x-large cv-pdf-cta"
+    href="{{ base_path }}/files/AndreiMuresanu_CV_v4.0-Pmp.pdf"
+    target="_blank"
+    rel="noopener"
+    aria-label="Open CV PDF in a new tab"
+  >
+    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+    Open CV PDF
+  </a>
+  <p class="cv-pdf-cta-note">Opens in a new tab for quicker viewing and download.</p>
+</div>
 
 <div style="margin-top: 1.5rem;">
   <iframe
-    src="{{ base_path }}/files/AndreiMuresanu_CV_v3.5-Pmp.pdf"
+    src="{{ base_path }}/files/AndreiMuresanu_CV_v4.0-Pmp.pdf"
     title="Andrei Muresanu CV"
     width="100%"
     height="1000"

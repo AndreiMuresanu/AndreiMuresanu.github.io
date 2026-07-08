@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can view or download my CV as a PDF below.
+You can view my CV below or you may open the PDF in a new tab by pressing the "Open CV PDF" button.
 
 <div class="cv-pdf-cta-wrap">
   <a
@@ -23,7 +23,6 @@ You can view or download my CV as a PDF below.
     <i class="fas fa-file-pdf" aria-hidden="true"></i>
     Open CV PDF
   </a>
-  <p class="cv-pdf-cta-note">Opens in a new tab for quicker viewing and download.</p>
 </div>
 
 <div style="margin-top: 1.5rem;">
@@ -37,4 +36,4 @@ You can view or download my CV as a PDF below.
   </iframe>
 </div>
 
-If the preview does not open in your browser, use the link above to download it directly.
+If the preview does not open in your browser, use the botton above to open the PDF in a new tab.

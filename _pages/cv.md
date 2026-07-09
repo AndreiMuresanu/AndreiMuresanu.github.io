@@ -15,7 +15,7 @@ You can view my CV below or you may open the PDF in a new tab by pressing the "O
 <div class="cv-pdf-cta-wrap">
   <a
     class="btn btn--primary btn--x-large cv-pdf-cta"
-    href="{{ base_path }}/files/AndreiMuresanu_CV_v4.0-Pmp.pdf"
+    href="{{ base_path }}/files/AndreiMuresanu_CV_v4.1-Pmp.pdf"
     target="_blank"
     rel="noopener"
     aria-label="Open CV PDF in a new tab"
@@ -27,7 +27,7 @@ You can view my CV below or you may open the PDF in a new tab by pressing the "O
 
 <div style="margin-top: 1.5rem;">
   <iframe
-    src="{{ base_path }}/files/AndreiMuresanu_CV_v4.0-Pmp.pdf"
+    src="{{ base_path }}/files/AndreiMuresanu_CV_v4.1-Pmp.pdf"
     title="Andrei Muresanu CV"
     width="100%"
     height="1000"

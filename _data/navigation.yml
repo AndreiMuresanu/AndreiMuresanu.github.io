@@ -23,6 +23,9 @@ main:
   - title: "Games"
     url: /games/
 
+  - title: "Blog"
+    url: /blog/
+
   # - title: "Talks"
   #   url: /talks/    
 

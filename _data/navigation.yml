@@ -20,6 +20,9 @@ main:
   - title: "Fun"
     url: /fun/
 
+  - title: "Games"
+    url: /games/
+
   # - title: "Talks"
   #   url: /talks/    
 

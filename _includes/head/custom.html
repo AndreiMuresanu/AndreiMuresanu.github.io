@@ -19,4 +19,19 @@
 <link rel="icon" href="/images/spherical_triangle.ico" />
 <meta name="theme-color" content="#ffffff" />
 
+<!-- Change the tab title when the visitor switches away from the tab -->
+<script>
+  (function () {
+    var originalTitle = document.title;
+    document.addEventListener("visibilitychange", function () {
+      if (document.hidden) {
+        originalTitle = document.title;
+        document.title = "👀 where did you go?";
+      } else {
+        document.title = originalTitle;
+      }
+    });
+  })();
+</script>
+
 <!-- end custom head snippets -->

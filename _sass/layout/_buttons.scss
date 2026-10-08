@@ -48,8 +48,8 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: var(--global-text-color-light) !important;
-    border: 1px solid var(--global-border-color) !important; /* override*/
+    color: var(--global-text-color) !important;
+    border: 1px solid var(--global-dark-border-color) !important; /* override*/
     background-color: var(--global-bg-color);
 
     &:hover {

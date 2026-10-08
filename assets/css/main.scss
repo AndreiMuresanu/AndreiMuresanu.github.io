@@ -8,6 +8,9 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
+// Show fallback text while icon fonts load instead of blocking text rendering
+$fa-font-display: swap;
+
 @import
     "vendor/breakpoint/breakpoint",
 

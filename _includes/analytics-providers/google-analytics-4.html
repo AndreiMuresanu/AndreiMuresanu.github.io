@@ -1,8 +1,15 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', '{{site.analytics.google.tracking_id}}');
+
+  // Load gtag.js after the page has finished loading so it doesn't compete with page rendering
+  window.addEventListener('load', function () {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id={{site.analytics.google.tracking_id}}';
+    document.head.appendChild(s);
+  });
 </script>

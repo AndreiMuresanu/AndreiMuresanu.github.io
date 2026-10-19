@@ -23,6 +23,7 @@ repository               : "AndreiMuresanu/AndreiMuresanu.github.io"
 author:
   # Biographic information
   avatar           : "avatar-350.webp"
+  avatar_srcset    : ["avatar-128.webp 128w", "avatar-192.webp 192w", "avatar-350.webp 350w"] # smaller sizes for the small mobile avatar
   name             : "Andrei Muresanu"
   pronouns         : # example: "she/her"  
   bio              : "AI Researcher"

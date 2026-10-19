@@ -1,0 +1,75 @@
+/*!
+ * Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2024 Fonticons, Inc.
+ */
+// Subset build of Font Awesome: replaces fontawesome.scss + solid.scss + brands.scss.
+// Only the icons listed below get CSS classes, and the webfonts in /assets/webfonts
+// are subset to the same glyphs. When adding an icon, add it to the matching list here
+// and then run `python scripts/subset_fontawesome.py` to regenerate the fonts.
+
+@import 'functions';
+@import 'variables';
+@import 'mixins';
+@import 'core';
+@import 'sizing';
+@import 'fixed-width';
+@import 'animated';
+@import 'screen-reader';
+
+$fa-solid-used: (
+  "building-columns", "calendar", "clock", "envelope", "file-pdf", "folder-open",
+  "globe", "key", "link", "location-dot", "map-marker-alt", "moon", "phone",
+  "rss-square", "spinner", "sun", "tags"
+);
+
+$fa-brands-used: (
+  "artstation", "bitbucket", "bluesky", "codepen", "dribbble", "facebook", "facebook-f",
+  "flickr", "foursquare", "github", "goodreads", "google-plus-g", "instagram", "kaggle",
+  "lastfm", "linkedin", "mastodon", "medium", "pinterest", "researchgate", "soundcloud",
+  "stack-overflow", "steam", "telegram", "tumblr", "vine", "weibo", "wikipedia-w", "x-twitter",
+  "xing", "youtube", "zhihu"
+);
+
+:root, :host {
+  --#{$fa-css-prefix}-style-family-classic: '#{ $fa-style-family }';
+  --#{$fa-css-prefix}-font-solid: normal 900 1em/1 '#{ $fa-style-family }';
+  --#{$fa-css-prefix}-style-family-brands: 'Font Awesome 6 Brands';
+  --#{$fa-css-prefix}-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: $fa-font-display;
+  src: url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
+    url('#{$fa-font-path}/fa-solid-900.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: $fa-font-display;
+  src: url('#{$fa-font-path}/fa-brands-400.woff2') format('woff2'),
+    url('#{$fa-font-path}/fa-brands-400.ttf') format('truetype');
+}
+
+.fas,
+.#{$fa-css-prefix}-solid {
+  font-weight: 900;
+}
+
+.fab,
+.#{$fa-css-prefix}-brands {
+  font-weight: 400;
+}
+
+@each $name in $fa-solid-used {
+  .#{$fa-css-prefix}-#{$name}::before { content: unquote("\"#{ map-get($fa-icons, $name) }\""); }
+}
+
+@each $name in $fa-brands-used {
+  .#{$fa-css-prefix}-#{$name}:before { content: unquote("\"#{ map-get($fa-brand-icons, $name) }\""); }
+}

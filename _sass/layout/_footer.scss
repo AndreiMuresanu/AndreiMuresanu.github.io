@@ -5,7 +5,8 @@
 .page__footer {
   @include clearfix;
   background-color: var(--global-footer-bg-color);
-  color: var(--global-text-color-light);
+  /* Full text color (not the light variant) so footer text meets WCAG AA contrast */
+  color: var(--global-text-color);
 
   float: left;
   margin-left: 0;
@@ -20,11 +21,6 @@
   /* sticky footer fix end */
 
   margin-top: 3em;
-
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.45s;
-          animation-delay: 0.45s;
   border-top: 1px solid var(--global-dark-border-color);
 
   footer {
@@ -53,7 +49,7 @@
   .fab,
   .far,
   .fal {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
   }
 }
 

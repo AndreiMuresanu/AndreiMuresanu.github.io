@@ -2,6 +2,9 @@
 
 <!-- start custom head snippets -->
 
+<!-- Fetch theme.js (imported by main.min.js) in parallel instead of waiting for main.min.js -->
+<link rel="modulepreload" href="{{ base_path }}/assets/js/theme.js" />
+
 <!-- Support for Academicons -->
 <!-- Loaded without blocking rendering, since it only styles a few icons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.min.css" media="print" onload="this.media='all'" />

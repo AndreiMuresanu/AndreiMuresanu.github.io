@@ -10,7 +10,8 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" width="350" height="350" fetchpriority="high" />
+    	{% capture avatar_srcset %}{% for entry in author.avatar_srcset %}{{ base_path }}/images/{{ entry }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
+    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}"{% if author.avatar_srcset %} srcset="{{ avatar_srcset }}" sizes="(min-width: 925px) 175px, 64px"{% endif %} class="author__avatar" alt="{{ author.name }}" width="350" height="350" fetchpriority="high" />
     {% endif %}
   </div>
 

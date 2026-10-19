@@ -5,7 +5,8 @@
 
   gtag('config', '{{site.analytics.google.tracking_id}}');
 
-  // Load gtag.js after the page has finished loading so it doesn't compete with page rendering
+  /* Load gtag.js after the page has finished loading so it doesn't compete with page rendering.
+     Use block comments here: the compress layout joins lines, so a // comment would disable the code below. */
   window.addEventListener('load', function () {
     var s = document.createElement('script');
     s.async = true;

@@ -14,7 +14,7 @@ Furkan studies statistics, causality, and ML. He says he works on answering "wha
 
 ## [Yongjin Yang](https://yangyongjin.github.io/)
 
-Yongjin said to not to highlight his papers and "just put a Korean flag next to [him]." Maybe he was just being modest, or maybe it's because he has ~1,000,000 papers. Regardless, this is my website and I take orders from nobody. Click [here](https://scholar.google.com/citations?user=qGVZm3sAAAAJ) to see all his papers. Yongjin works on RL and self-improvement. One thing Yongjin is currently trying to self-improve is his pumpkin carving skills.
+Yongjin said to not highlight his papers and "just put a Korean flag next to [him]." Maybe he was just being modest, or maybe it's because he has ~1,000,000 papers. Regardless, this is my website and I take orders from nobody. Click [here](https://scholar.google.com/citations?user=qGVZm3sAAAAJ) to see all his papers. Yongjin works on RL and self-improvement. One thing Yongjin is currently trying to self-improve is his pumpkin carving skills.
 
 
 ## [Rohan Subramani](https://rohansubramani.github.io/home/)
